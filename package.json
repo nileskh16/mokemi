@@ -2,9 +2,14 @@
   "name": "mokoi",
   "version": "0.0.0",
   "scripts": {
+    "int:scripts": "ng xi18n --output-path src/locale",
     "ng": "ng",
     "start": "ng serve",
+    "start:fr": "ng serve --configuration fr",
+    "start:de": "ng serve --configuration de",
     "build": "ng build",
+    "build:fr": "ng build --configuration fr",
+    "build:de": "ng build --configuration de",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -16,6 +21,7 @@
     "@angular/compiler": "~8.0.1",
     "@angular/core": "~8.0.1",
     "@angular/forms": "~8.0.1",
+    "@angular/localize": "^9.0.0",
     "@angular/platform-browser": "~8.0.1",
     "@angular/platform-browser-dynamic": "~8.0.1",
     "@angular/router": "~8.0.1",
