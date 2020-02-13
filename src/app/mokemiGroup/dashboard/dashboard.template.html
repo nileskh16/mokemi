@@ -1,17 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<header class="masthead">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Welcome To <span id="myofc">MokemGroup</span></div>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger slideanim" href="#portfolio">Explore</a>
+        </div>
+    </div>
+</header>
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <a class="navbar-brand mr-1" href="#">
-        <img src="img/HomeLogoNew.png" alt="MokemLgo" height="80px" width="120px" /></a>
+        <img src="assets/img/HomeLogoNew.png" alt="MokemLgo" height="80px" width="120px" /></a>
     <div class="container">
         <h2 id="myh2"><a class="card-title" href="#page-top">MOKEMGROUP TECHNOLOGIES</a></h2>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
             Menu
-   
+
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="Home.aspx">Home</a>
+                    <a class="nav-link js-scroll-trigger" routerLink="/mokemi/home">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#portfolio">Search Job</a>
@@ -25,5 +36,44 @@
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->
 <router-outlet></router-outlet>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; www.mokemgroup.com 2019</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/mokemgroup/?modal=admin_todo_tour">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/company/34888578/admin/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline quicklinks">
+                    <li class="list-inline-item">
+                        <a href="#Privacy" data-toggle="modal">Privacy Policy</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#term" data-toggle="modal">Terms of Use</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -14,13 +14,9 @@ const mokemiRoutes: Routes = [
         component: CareersComponent
     },
     {
-        path: 'dashboard',
-        component: DashboardComponent
-    },
-    {
         path: '',
         pathMatch: 'full',
-        redirectTo: '/dashboard'
+        redirectTo: '/mokemi/home'
     }
 ];
 

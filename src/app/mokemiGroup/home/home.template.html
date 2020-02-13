@@ -1,48 +1,56 @@
 <section class="bg-light page-section" id="portfolio">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase slideanim">Search Job</h2>
-                <h3 class="section-subheading text-muted">Search Openings...</h3>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase slideanim">Search Job</h2>
+                    <h3 class="section-subheading text-muted">Search Openings...</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="form-group slideanim">
+                        <input class="form-control" id="name" type="text" placeholder="Job Title, Keywords...."
+                            required="required" data-validation-required-message="Please enter your name.">
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="form-group slideanim">
+                        <select class="form-control" id="sel1" placeholder="Anywhere">
+                            <option>India</option>
+                            <option>New York</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="form-group slideanim">
+                        <select class="form-control" id="sel1" placeholder="Anywhere">
+                            <option>Part Time</option>
+                            <option>Full Time</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="form-group slideanim">
+                        <button type="button" class="form-control btn btn-primary">Search Job</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-sm-6 portfolio-item">
-                <div class="form-group slideanim">
-                    <input class="form-control" id="name" type="text" placeholder="Job Title, Keywords...."
-                        required="required" data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 portfolio-item">
-                <div class="form-group slideanim">
-                    <select class="form-control" id="sel1" placeholder="Anywhere">
-                        <option>India</option>
-                        <option>New York</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 portfolio-item">
-                <div class="form-group slideanim">
-                    <select class="form-control" id="sel1" placeholder="Anywhere">
-                        <option>Part Time</option>
-                        <option>Full Time</option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 portfolio-item">
-                <div class="form-group slideanim">
-                    <button type="button" class="form-control btn btn-primary">Search Job</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    </form>
 
     <div class="container">
         <h3>Total Jobs (6)</h3>
 
         <table class="table slideanim">
+            <thead>
+                <tr id="table-head">
+                    <th>Position</th>
+                    <th>City</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
             <tbody>
                 <tr>
                     <td>.Net Developer</td>
@@ -107,14 +115,6 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase slideanim">About</h2>
-                <h3 class="section-subheading text-muted">MokemGroup is a company specialized in the design of software
-                    of all kinds. We design websites, E-commerce, software designed according to the customer's
-                    needs.... In collaboration with the best engineers and designers in the field, we will help you to
-                    develop your applications by realizing your ideas but also by offering you tips and concepts to make
-                    your application the most efficient in the field and we guarantee you perfect satisfaction.</h3>
-            </div>
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading text-uppercase slideanim">About</h2>
                 <h3 class="section-subheading text-muted" style="text-align: left">
                     <p>MokemGroup is a company specialized
                         in the design of software of all kinds. We design websites, E-commerces, mobile applications
@@ -148,7 +148,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                            <img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="">
                         </div>
                         <div class="timeline-panel slideanim">
                             <div class="timeline-heading">
@@ -162,7 +162,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                            <img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="">
                         </div>
                         <div class="timeline-panel slideanim">
                             <div class="timeline-heading">
@@ -179,7 +179,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                            <img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="">
                         </div>
                         <div class="timeline-panel slideanim">
                             <div class="timeline-heading">
@@ -220,7 +220,7 @@
         <div class="row">
             <div class="col-sm-4 col offset-sm-4">
                 <div class="team-member">
-                    <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
+                    <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="">
                     <h4>Prosoft Solutions</h4>
                     <p class="text-muted">India</p>
                     <ul class="list-inline social-buttons">

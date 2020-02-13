@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { AppRouteModule } from './app.route';
 
 import { AppComponent } from './app.component';
+import { DashboardComponent } from './mokemiGroup/dashboard/dashboard.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

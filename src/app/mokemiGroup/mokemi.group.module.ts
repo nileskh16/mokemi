@@ -6,7 +6,6 @@ import { SharedModule } from '../shared/shared.module';
 // Components
 import { HomeComponent } from './home/home.component';
 import { CareersComponent } from './careers/careers.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
     imports: [
@@ -15,8 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     ],
     declarations: [
         HomeComponent,
-        CareersComponent,
-        DashboardComponent
+        CareersComponent
     ]
 })
 export class MokemiGroupModule {

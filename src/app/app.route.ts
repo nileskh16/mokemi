@@ -5,11 +5,6 @@ const routes: Routes = [
     {
         path: 'mokemi',
         loadChildren: './mokemiGroup/mokemi.group.module#MokemiGroupModule'
-    },
-    {
-        path: '',
-        redirectTo: '/mokemi',
-        pathMatch: 'full'
     }
 ];
 

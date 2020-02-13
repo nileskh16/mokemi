@@ -1,0 +1,62 @@
+@import '../../shared/styles/buttons.scss';
+@import '../../shared/styles/contact.scss';
+@import '../../shared/styles/footer.scss';
+@import '../../shared/styles/masthead.scss';
+@import '../../shared/styles/navbar.scss';
+@import '../../shared/styles/page.scss';
+@import '../../shared/styles/portfolio.scss';
+@import '../../shared/styles/services.scss';
+@import '../../shared/styles/team.scss';
+@import '../../shared/styles/timeline.scss';
+
+.page-section {
+    padding: 100px 0;
+    h2.section-heading {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    h3.section-subheading {
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 75px;
+      text-transform: none;
+      @include serif-font;
+    }
+  }
+
+  .slider1 {
+    margin-top: -30px;
+  }
+
+  figure {
+      .slider {
+        position: relative; width: 500%;
+        font-size: 0; animation: 10s slidy infinite;
+
+        figure {
+            width: 20%; height: auto;
+            display: inline-block;  position: inherit;
+
+            figcaption {
+                position: absolute; bottom: 0;
+                background: rgba(0,0,0,0.4);
+                color: #fff; width: 100%;
+                text-align: center;
+                font-size: 2rem; padding: .6rem; 
+            }
+        }
+
+        img {
+            width: 100%; height: auto;
+        }
+    }
+    .slider:hover {
+        animation-play-state:paused;
+    }
+  }
+
+  .slideanim {
+    visibility: unset;
+  }
