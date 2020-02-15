@@ -2,52 +2,592 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="appHeader" datatype="html">
+      <trans-unit id="bd9d9707339a92d4175610d4e1c7ff3ccd8a0ee9" datatype="html">
+        <source>Welcome To <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>MokemGroup<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Willkommen zu <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>MokemGroup<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1773b1dad3e4b72bca77621985366b9e6a92ae28" datatype="html">
+        <source>Explore</source>
+        <target>Erkunden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navTitle" datatype="html">
+        <source>MOKEMGROUP TECHNOLOGIES</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">Navigation title</note>
+        <note priority="1" from="meaning">Nav Title</note>
+      </trans-unit>
+      <trans-unit id="e8191c776270be65e72a1251ab35356dd65e8081" datatype="html">
         <source>
-    Welcome to <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
-  </source>
+            Menu
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
+        </source>
         <target>
-          Willkommen zu <x id="INTERPOLATION" equiv-text="{{ title }}"/>!
+            Speisekarte
+            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
         </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">3</context>
-        </context-group>
-        <note priority="1" from="description">This is page title</note>
-        <note priority="1" from="meaning">Title</note>
-      </trans-unit>
-      <trans-unit id="appSubTitle" datatype="html">
-        <source>Here are some links to help you start: </source>
-        <target>Hier sind einige Links, die Ihnen den Einstieg erleichtern: </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-        <note priority="1" from="description">This is page sub-title</note>
-        <note priority="1" from="meaning">Subtitle</note>
-      </trans-unit>
-      <trans-unit id="170b2bb80cfeeaf71c71cd4b56d240fdda4dfc0b" datatype="html">
-        <source>Tour of Heroes</source>
-        <target>Tour der Helden</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4446b939821a1c94d99d8f88ebf5c67844d48d08" datatype="html">
-        <source>CLI Documentation</source>
-        <target>CLI Dokumentation</target>
+      <trans-unit id="homeln" datatype="html">
+        <source>Home</source>
+        <target>Zuhause</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">Link to home</note>
+        <note priority="1" from="meaning">Home Link</note>
+      </trans-unit>
+      <trans-unit id="jobsln" datatype="html">
+        <source>Search Job</source>
+        <target>Job suchen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description">Link to Jobs</note>
+        <note priority="1" from="meaning">Job Link</note>
+      </trans-unit>
+      <trans-unit id="aboutln" datatype="html">
+        <source>About</source>
+        <target>Über</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">Link to about</note>
+        <note priority="1" from="meaning">About Link</note>
+      </trans-unit>
+      <trans-unit id="contactln" datatype="html">
+        <source>Contact</source>
+        <target>Kontakt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">Link to Contact</note>
+        <note priority="1" from="meaning">Contact Link</note>
+      </trans-unit>
+      <trans-unit id="privacypolicy" datatype="html">
+        <source>Privacy Policy</source>
+        <target>Datenschutz-Bestimmungen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <note priority="1" from="description">Privacy Policies</note>
+        <note priority="1" from="meaning">Privacy Policy</note>
+      </trans-unit>
+      <trans-unit id="termsOfUse" datatype="html">
+        <source>Terms of Use</source>
+        <target>Nutzungsbedingungen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/dashboard/dashboard.template.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <note priority="1" from="description">Tersm of use</note>
+        <note priority="1" from="meaning">Terms</note>
+      </trans-unit>
+      <trans-unit id="searchJob" datatype="html">
+        <source>Search Job</source>
+        <target>Job suchen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <note priority="1" from="description">Search Job</note>
+      </trans-unit>
+      <trans-unit id="f67ab76e1a333441789e73e7c70439510a8ffbfa" datatype="html">
+        <source>Search Openings...</source>
+        <target>Öffnungen suchen...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="85f6004eecf56e569177a28df6cddbda81eb36ed" datatype="html">
+        <source>Part Time</source>
+        <target>Teilzeit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cabad942e523d4761ba71d28dce4a5202510ac41" datatype="html">
+        <source>Full Time</source>
+        <target>Vollzeit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17ab0529ce6dba5a82360e047ddec25d9dbf6faf" datatype="html">
+        <source>Total Jobs (6)</source>
+        <target>Jobs insgesamt (6)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ba7568bba29f8d8e352f93e67002d0b548eb838" datatype="html">
+        <source>Position</source>
+        <target>Position</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5c7012b5a926b32d9e45fefdcc8a1a3cb6f023d0" datatype="html">
+        <source>City</source>
+        <target>Stadt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1bd5e17c9582661e20763a7634ef07881e33bbd7" datatype="html">
+        <source>Action</source>
+        <target>Aktion</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="applyBtn" datatype="html">
+        <source>Apply</source>
+        <target>Anwenden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">363</context>
+        </context-group>
+        <note priority="1" from="description">Apply</note>
+      </trans-unit>
+      <trans-unit id="1db124908f25ef0b81db1db4dfe04df27590671b" datatype="html">
+        <source>For applying to job please mail us at careers@mokemgroup.com</source>
+        <target>Für eine Bewerbung senden Sie uns bitte eine E-Mail an careers@mokemgroup.com</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about" datatype="html">
+        <source>About</source>
+        <target>Über</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+        <note priority="1" from="description">About Description</note>
+        <note priority="1" from="meaning">About Desc</note>
+      </trans-unit>
+      <trans-unit id="MokemGroupInfo" datatype="html">
+        <source>MokemGroup is a company specialized
+                        in the design of software of all kinds. We design websites, E-commerces, mobile applications
+                        ,security of your company with the new technology IOT(Internet of thing),private mobile
+                        applications
+                        for managing your company(we create a mobile application only for you that allows you to control
+                        and
+                        manage your company through internet no matter where you are),softwares designed according to
+                        the
+                        customer&apos;s needs…. In collaboration with the best engineers and designers in the field, we will
+                        help
+                        you to develop your applications by realizing your ideas but also by offering you tips and
+                        concepts
+                        to make your application the most efficient in the field and we guarantee you perfect
+                        satisfaction.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                    </source>     
+        <target>
+          MokemGroup ist ein Unternehmen, das sich auf das Design von Software aller Art spezialisiert hat.
+          Wir entwerfen Websites, E-Commerce, mobile Anwendungen, die Sicherheit Ihres Unternehmens mit der 
+          neuen Technologie IOT (Internet of Ding), private mobile Anwendungen für die Verwaltung Ihres Unternehmens 
+          (wir erstellen eine mobile Anwendung nur für Sie, mit der Sie Ihre steuern 
+          und verwalten können Unternehmen über das Internet, egal wo Sie sind), Software, 
+          die auf die Bedürfnisse des Kunden zugeschnitten ist.
+          In Zusammenarbeit mit den besten Ingenieuren und Designern auf dem Gebiet helfen wir Ihnen bei der Entwicklung Ihrer Anwendungen, 
+          indem wir Ihre Ideen verwirklichen, aber auch Tipps und Konzepte anbieten, um Ihre Anwendung auf dem Gebiet am effizientesten zu machen, 
+          und wir garantieren Ihnen perfekte Zufriedenheit.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+        <note priority="1" from="description">Mokemgroup Info</note>
+      </trans-unit>
+      <trans-unit id="humbleBegin" datatype="html">
+        <source>Our Humble Beginnings</source>
+        <target>Unsere bescheidenen Anfänge</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="startMokemi" datatype="html">
+        <source>We started as MokemGroup in the world with adding futures!</source>
+        <target>Wir haben als MokemGroup in der Welt mit dem Hinzufügen von Futures begonnen!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="onlineHosp" datatype="html">
+        <source>My Online Hospital</source>
+        <target>Mein Online-Krankenhaus</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aim" datatype="html">
+        <source>My Online Hospital is an application developed by the best
+                                    computer scientists in the field located in Germany, India, Cameroon and Togo who
+                                    constantly ensure the security of your data as well as our qualified doctors who
+                                    work discreetly to satisfy you!</source>
+        <target>
+          My Online Hospital ist eine Anwendung, die von den besten Informatikern in Deutschland, Indien, Kamerun und Togo 
+          entwickelt wurde, die ständig die Sicherheit Ihrer Daten gewährleisten, 
+          sowie von unseren qualifizierten Ärzten, die diskret arbeiten, um Sie zufrieden zu stellen!
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">173</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">212</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="launchSOS" datatype="html">
+        <source>Launching SOS</source>
+        <target>Starten SOS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="futureSOS" datatype="html">
+        <source>SOS, Die Zukunft wurde eingeschaltet, um Notfallnachrichten zu versenden!</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bePart" datatype="html">
+        <source>Be Part
+
+                                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                                Of Our
+
+                                <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+                                Story!</source>
+        <target>
+          Sei Teil <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>unserer<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Geschichte!
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="partners" datatype="html">
+        <source>Our Partners</source>
+        <target>Unsere Partner</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">256</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">257</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="connectPeople" datatype="html">
+        <source>Connected People Connected Work Connected Results!</source>
+        <target>Verbundene Personen Verbundene Arbeit Verbundene Ergebnisse!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">217</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newsItem" datatype="html">
+        <source>News</source>
+        <target>Nachrichten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="updates" datatype="html">
+        <source>Latest updates of MokemGroup</source>
+        <target>Neueste Updates von MokemGroup</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="launchIndia" datatype="html">
+        <source>SOS Auto-défense, Start in Indien...</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="f7b003c76057ba9ff6d99232971f826d015eaf54" datatype="html">
-        <source>Angular blog</source>
-        <target>Angular blog</target>
+      <trans-unit id="launchSoon" datatype="html">
+        <source>SOS-Emergency Bald Starten...</source>
+        <target></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="autoDefense" datatype="html">
+        <source>SOS Auto-défense</source>
+        <target>SOS Auto-défense</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="products" datatype="html">
+        <source>Products</source>
+        <target>Produkte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="betterLife" datatype="html">
+        <source>For Better life</source>
+        <target>Für ein besseres Leben</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="itSolns" datatype="html">
+        <source>IT Solutions</source>
+        <target>IT-Lösungen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="happiness" datatype="html">
+        <source>Solutions towards happiness.</source>
+        <target>Lösungen zum Glück</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="animation" datatype="html">
+        <source>Animation</source>
+        <target>Animation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="animationImg" datatype="html">
+        <source>Animation is imagination.</source>
+        <target>Animation ist Vorstellungskraft</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="music" datatype="html">
+        <source>Music</source>
+        <target>Musik</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="musicalLife" datatype="html">
+        <source>No Music No Life.</source>
+        <target>Keine Musik kein Leben</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mobileApps" datatype="html">
+        <source>Mobile Apps</source>
+        <target>Mobile Apps</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="keepShort" datatype="html">
+        <source>Keep it short.</source>
+        <target>Halte es kurz</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">107</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="blockchain" datatype="html">
+        <source>Blockchain</source>
+        <target>Blockchain</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="charity" datatype="html">
+        <source>Charity</source>
+        <target>Nächstenliebe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="donateMore" datatype="html">
+        <source>Definitely, You Can Donate More</source>
+        <target>Auf jeden Fall können Sie mehr spenden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="indiaCharity" datatype="html">
+        <source>Mokem Charity In India</source>
+        <target>Mokem Charity In Indien</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="germanyCharity" datatype="html">
+        <source>Mokem Charity In Germany</source>
+        <target>Mokem Charity In Deutschland</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="franceCharity" datatype="html">
+        <source>Mokem Charity In France</source>
+        <target>Mokem Charity In Frankreich</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cameroonCharity" datatype="html">
+        <source>Mokem Charity In Cameroon</source>
+        <target>Mokem Charity in Kamerun</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contactUs" datatype="html">
+        <source>Contact Us</source>
+        <target>Kontaktiere uns</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">266</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/home/home.template.html</context>
+          <context context-type="linenumber">283</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">314</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mokemiGroup/careers/careers.template.html</context>
+          <context context-type="linenumber">331</context>
         </context-group>
       </trans-unit>
     </body>
